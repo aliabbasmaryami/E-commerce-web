@@ -1,0 +1,61 @@
+.Loginsingup{
+    width: 100%;
+    height: 80vh;
+    background: #fce3fe;
+    padding-top: 40px;
+}
+.Loginsingup-container{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    padding: 40px 60px;
+    background-color: #fff;
+}
+.Loginsingup-container h1{
+ margin: 20px 0px;
+}
+.Loginsingup-fields{
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    margin-top: 20px;
+}
+.Loginsingup-fields input{
+    height: 62px;
+    width: 100%;
+    padding-left: 20px;
+    border: 1px solid #c9c9c9;
+    outline: none;
+    color: #5c5c5c;
+    font-size: 18px;
+}
+.Loginsingup-container button{
+    width: 525px;
+    height: 62px;
+    color: white;
+    background: #ff4141;
+    margin-top: 20px;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.Loginsingup-login{
+    margin-top: 15px;
+    color: #5c5c5c;
+    font-size: 18px;
+    font-weight: 500;
+}
+.Loginsingup-login span{
+    color: #ff4141;
+    font-weight: 600;
+}
+.Loginsingup-agree{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+    color: #5c5c5c;
+    font-size: 16px;
+    font-weight: 500;
+}

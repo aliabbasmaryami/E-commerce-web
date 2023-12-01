@@ -1,0 +1,111 @@
+.Cartitem {
+  margin: 100px 150px;
+}
+.Cartitem hr {
+  height: 3px;
+  background: #e2e2e2;
+  border: 0;
+}
+.cartitem-format-main {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  gap: 75px;
+  padding: 20px 0px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #454545;
+}
+.cartitem-format {
+  font-size: 17px;
+  font-weight: 500;
+}
+.carticon-product-icon {
+  height: 70px;
+}
+.cart-remove-icon {
+  width: 15px;
+  margin: 0px 40px;
+  cursor: pointer;
+}
+.cart-item-quantity {
+  width: 64px;
+  height: 50px;
+  border: none;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.cartitems-down {
+  display: flex;
+  margin: 100px 0px;
+}
+.cartitems-total {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-right: 10rem;
+  gap: 40px;
+}
+.cartitem-total-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0px;
+}
+.cartitems-total button {
+  width: 262px;
+  height: 58px;
+  outline: none;
+  border: none;
+  background: #fa5a5a;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  border-top-left-radius: 80px 80px;
+  border-bottom-right-radius: 80px 80px;
+  cursor: pointer;
+}
+.cartitem-promocode {
+  flex: 1;
+  font-size: 16px;
+  font-weight: 500;
+}
+.cartitem-promocode p {
+  color: #555;
+}
+.cartitem-promobox {
+  display: flex;
+  flex-direction: column;
+  width: 504px;
+  margin-top: 15px;
+  padding-left: 20px;
+  height: 58px;
+  background: #eaeaea;
+  border-top-left-radius: 80px 80px;
+  border-bottom-right-radius: 50px 80px;
+}
+.cartitem-promobox input {
+  border: none;
+  outline: none;
+  width: 330px;
+  height: 50px;
+  background: transparent;
+  font-size: 16px;
+}
+.cartitem-promocode-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px;
+  cursor: pointer;
+}
+.cartitem-promocode-btn button {
+  width: 100px;
+  height: 58px;
+  border: none;
+  background: #555;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+   border-top-right-radius: 80px 80px;
+  border-bottom-left-radius: 50px 80px;
+  cursor: pointer;
+}
